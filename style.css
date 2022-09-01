@@ -18,12 +18,11 @@ body {
 
 .outer_container {
 	overflow: hidden;
-	border-radius: 6px;
+	border-radius: 1rem;
 
 	margin: auto;
-	padding: 7px;
+	padding: 14px;
 	width: 350px;
-	height: 450px;
 
 	background: white;
 	display: flex;
@@ -33,14 +32,14 @@ body {
 }
 
 .qr img {
-	border-radius: 7px;
-	display: inline;
-	width: 98%;
-	margin-bottom: 0px;
+	border-radius: 14px;
+	display: block;
+	max-width: 100%;
 }
 
 .about {
 	display: flex;
+	padding: 1rem;
 	flex-direction: column;
 }
 
